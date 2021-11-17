@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { StyleSheet, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard } from "react-native";
 import AddTodo from "./components/AddTodo";
 import Header from "./components/Header";
-import SandBox from "./components/SandBox";
 import TodoItem from "./components/TodoItem";
 
 export default function App() {
@@ -29,7 +28,6 @@ export default function App() {
     }
   };
   return (
-    // <SandBox/>
     <TouchableWithoutFeedback onPress={()=>{
       Keyboard.dismiss()
       }}>

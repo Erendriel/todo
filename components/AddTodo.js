@@ -3,7 +3,6 @@ import { View, TextInput, StyleSheet, Button } from "react-native";
 
 export default function AddTodo({submitHandler}) {
   const [text, setText] = useState("");
-  const [textInput, setTextInput] = useState()
   const clearInput=()=>{
     setText('');
   }
